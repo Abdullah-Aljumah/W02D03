@@ -38,7 +38,11 @@ alert1.addEventListener("contextmenu",()=>{
     alert("ALERT!!")
 })
 
-const alert2 = document.querySelector("#alert2")
-alert2.addEventListener("", ()=>{
+const alert2 = document.querySelector("#input1")
+alert2.addEventListener("change", ()=>{
 alert("Input Alert!!")
 })
+
+function load(){
+    alert("Page is loaded");
+}
